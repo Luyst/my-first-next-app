@@ -38,20 +38,9 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
                     title="Địa điểm"
                     type="text"
                     placeholder="Tìm kiếm sân chơi"
-                    onFocus={handleFocus}
                 />
-                <Input
-                    title="Ngày"
-                    type="text"
-                    placeholder="Chọn ngày"
-                    onFocus={handleFocus}
-                />
-                <Input
-                    title="Khách"
-                    type="text"
-                    placeholder="Thêm khách"
-                    onFocus={handleFocus}
-                />
+                <Input title="Ngày" type="text" placeholder="Chọn ngày" />
+                <Input title="Khách" type="text" placeholder="Thêm khách" />
             </div>
         </section>
     );
