@@ -1,7 +1,7 @@
 export const navLinks = [
     {
         href: "/",
-        label: "Home",
+        label: "Homes",
         videoSrcMov:
             "https://a0.muscache.com/videos/search-bar-icons/hevc/house-twirl-selected.mov",
         videoSrcWebm:

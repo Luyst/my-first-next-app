@@ -1,37 +1,36 @@
 "use client";
+
 import React from "react";
+import { cn } from "@/lib/utils";
 
 type InputProps = {
     title?: string;
-    type?: string;
-    placeholder?: string;
+} & React.InputHTMLAttributes<HTMLInputElement>;
 
-    onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
-    onFocus?: (e: React.FocusEvent<HTMLInputElement>) => void;
-};
-
-const Input: React.FC<InputProps> = ({
+export default function Input({
     title,
-    type,
+    type = "text",
     placeholder,
+    className,
 
-    onChange,
-    onFocus,
-}) => {
+    ...props
+}: InputProps) {
+    const base =
+        "flex flex-col items-start rounded-full transition-colors duration-300 cursor-pointer";
+
     return (
-        <label className="input-wrap flex flex-col items-start py-4 px-8 text-sm rounded-full   transition-colors duration-300">
-            <span className="input-title text-gray-700 text-sm">
-                {title ? title : ""}
-            </span>
+        <label className={cn(base, "py-3 px-8", className)}>
+            {title && (
+                <span className=" text-xs font-semibold text-gray-700">
+                    {title}
+                </span>
+            )}
             <input
                 type={type}
                 placeholder={placeholder}
-                className="flex-grow transition-colors duration-300   focus:outline-none"
-                onChange={onChange}
-                onFocus={onFocus}
+                className="w-full text-gray-900 placeholder-gray-500 focus:outline-none bg-transparent cursor-pointer"
+                {...props}
             />
         </label>
     );
-};
-
-export default Input;
+}

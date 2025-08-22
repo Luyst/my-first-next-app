@@ -1,0 +1,8 @@
+{
+    "prettier.bracketSameLine": true,
+    "prettier.jsxSingleQuote": false,
+    "prettier.tabWidth": 2,
+    "python.analysis.addHoverSummaries": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+}

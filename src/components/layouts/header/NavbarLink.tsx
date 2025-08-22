@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 interface NavLinkVideoProps {
@@ -16,7 +18,7 @@ export function NavbarLink({
     return (
         <Link
             href={href}
-            className="flex flex-row items-center gap-1 text-sm font-medium text-gray-500 group"
+            className="flex flex-row items-center gap-3 text-sm font-medium group transition-colors"
         >
             <span className="video-container relative size-9 overflow-hidden group-hover:scale-120 transition-transform duration-500">
                 <video
@@ -28,9 +30,9 @@ export function NavbarLink({
                 >
                     <source src={videoSrcMov} type='video/mp4; codecs="hvc1"' />
                     <source src={videoSrcWebm} type="video/webm" />
-                </video>{" "}
+                </video>
             </span>
-            <span className="hover:text-gray-700">{label}</span>
+            <span className="font-semibold">{label}</span>
         </Link>
     );
 }

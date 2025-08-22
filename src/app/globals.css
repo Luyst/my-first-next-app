@@ -3,33 +3,40 @@
 :root {
   --background: #F7F7F7;
   --foreground: #171717;
+  --primary: #ff385c;
+  --link-active: #222222;
   --search-input: #f2f2f2;
   --search-input-focus: #EBEBEB;
   --search-input-hover: #DDDDDD;
 
-}
-
-/* Manual dark mode override */
-body.dark {
-  --background: #0a0a0a;
-  --foreground: #ededed;
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  transition: background 0.3s, color 0.3s;
-}
-video {
-    object-fit: contain;
-    overflow-clip-margin: content-box;
-    overflow: clip;
+  /* Gradient color */
+  --primary-gradient: linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%);
+  --search-input_background: linear-gradient(180deg, #ffffff 39.9%, #f8f8f8 100%);
 }
 
 @theme {
 
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+
+  --color-link-active: var(--link-active);
   --color-search-input: var(--search-input);
   --color-search-input-focus: var(--search-input-focus);
   --color-search-input-hover: var(--search-input-hover);
   
+  --bg-linear-gradient: var(--primary-gradient);
+}
+
+
+
+
+
+@layer base {
+  
+  video {
+      object-fit: contain;
+      overflow-clip-margin: content-box;
+      overflow: clip;
+  }
 }

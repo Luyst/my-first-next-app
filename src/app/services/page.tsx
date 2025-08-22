@@ -1,20 +1,65 @@
 // app/services/page.tsx
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-    title: "Airbnb Service",
-    description: "Search for locations, dates, and guests on Airbnb Clone.",
-};
+import { Card } from "@/components/ui/Card";
 
 export default function ServicesPage() {
     return (
-        <main className="z-90">
-            <div className="font-sans service-page flex flex-col min-h-screen">
-                <h1 className="text-2xl font-bold">Services</h1>
+        <main >
+            <Card className="flex flex-col items-center justify-center h-full p-8">
+                <h1 className="text-2xl font-bold mb-4">
+                    Welcome to My First Next.js App
+                </h1>
                 <p className="text-gray-600">
-                    Explore our services to enhance your stay.
+                    This is a simple example of a Next.js application.
                 </p>
-            </div>
+            </Card>{" "}
+            <Card className="flex flex-col items-center justify-center h-full p-8">
+                <h1 className="text-2xl font-bold mb-4">
+                    Welcome to My First Next.js App
+                </h1>
+                <p className="text-gray-600">
+                    This is a simple example of a Next.js application.
+                </p>
+            </Card>{" "}
+            <Card className="flex flex-col items-center justify-center h-full p-8">
+                <h1 className="text-2xl font-bold mb-4">
+                    Welcome to My First Next.js App
+                </h1>
+                <p className="text-gray-600">
+                    This is a simple example of a Next.js application.
+                </p>
+            </Card>{" "}
+            <Card className="flex flex-col items-center justify-center h-full p-8">
+                <h1 className="text-2xl font-bold mb-4">
+                    Welcome to My First Next.js App
+                </h1>
+                <p className="text-gray-600">
+                    This is a simple example of a Next.js application.
+                </p>
+            </Card>{" "}
+            <Card className="flex flex-col items-center justify-center h-full p-8">
+                <h1 className="text-2xl font-bold mb-4">
+                    Welcome to My First Next.js App
+                </h1>
+                <p className="text-gray-600">
+                    This is a simple example of a Next.js application.
+                </p>
+            </Card>{" "}
+            <Card className="flex flex-col items-center justify-center h-full p-8">
+                <h1 className="text-2xl font-bold mb-4">
+                    Welcome to My First Next.js App
+                </h1>
+                <p className="text-gray-600">
+                    This is a simple example of a Next.js application.
+                </p>
+            </Card>{" "}
+            <Card className="flex flex-col items-center justify-center h-full p-8">
+                <h1 className="text-2xl font-bold mb-4">
+                    Welcome to My First Next.js App
+                </h1>
+                <p className="text-gray-600">
+                    This is a simple example of a Next.js application.
+                </p>
+            </Card>{" "}
         </main>
     );
 }
