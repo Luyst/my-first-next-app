@@ -4,7 +4,7 @@ import RightHeader from "./RightHeader";
 import Link from "next/link";
 export default function Header() {
     return (
-        <header className="sticky top-0 w-full h-24 mb-26 flex flex-row items-center justify-between  px-12">
+        <header className="sticky z-99 top-0 w-full h-24 flex flex-row items-center justify-between  px-12">
             <Link
                 href={"/"}
                 className="z-10 mb-2 md:mb-0 cursor-pointer text-[#FF385C]"

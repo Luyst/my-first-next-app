@@ -12,6 +12,16 @@
   /* Gradient color */
   --primary-gradient: linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%);
   --search-input_background: linear-gradient(180deg, #ffffff 39.9%, #f8f8f8 100%);
+
+ --contentscroller_gap: 16px;
+  --contentscroller_visible-items: 2; /* default: mobile */
+
+  /*Peel Quanlity*/
+  --peek_sm: 2;
+  --peek_md: 4;
+  --peek_lg: 6;
+  --peek_xl: 7;
+
 }
 
 @theme {
@@ -26,10 +36,52 @@
   --color-search-input-hover: var(--search-input-hover);
   
   --bg-linear-gradient: var(--primary-gradient);
+
+  --aspect-imagecard:20/19
 }
 
 
 
+@media (min-width: 640px) {
+  :root {
+    --contentscroller_visible-items: var(--peek_sm);
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --contentscroller_visible-items: var(--peek_md);
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    --contentscroller_visible-items: var(--peek_lg);
+  }
+}
+@media (min-width: 1280px) {
+  :root {
+    --contentscroller_visible-items: var(--peek_xl);
+  }
+}
+.scroller {
+  display: grid;
+  grid-auto-flow: column;
+  gap: var(--contentscroller_gap);
+
+  scroll-snap-type: x mandatory;
+
+  grid-auto-columns: calc(
+    (100% - var(--contentscroller_gap) * (var(--contentscroller_visible-items) - 1))
+      / var(--contentscroller_visible-items)
+  );
+}
+
+.test{
+      grid-template-columns: repeat(2, minmax(min-content, auto));
+}
+
+.scroller > * {
+  scroll-snap-align: start;
+}
 
 
 @layer base {

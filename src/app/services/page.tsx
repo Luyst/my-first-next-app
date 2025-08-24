@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/Card";
 
 export default function ServicesPage() {
     return (
-        <main >
+        <main className="mt-26">
             <Card className="flex flex-col items-center justify-center h-full p-8">
                 <h1 className="text-2xl font-bold mb-4">
                     Welcome to My First Next.js App

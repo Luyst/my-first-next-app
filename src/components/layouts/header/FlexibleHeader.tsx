@@ -8,8 +8,14 @@ import { useActive } from "@/hooks/useActive";
 import { handleSearch } from "@/lib/search";
 import { cn, updateHighlightPosition } from "@/lib/utils";
 import { useScroll } from "@/hooks/useScroll";
+import { usePathname } from "next/navigation";
 
 export default function FlexibleHeader() {
+  const pathname = usePathname();
+  console.log("Current pathname:", pathname);
+  const parts = pathname.split("/"); // ["", "room", "listing_005"]
+
+  const hasId = parts.length > 2 && parts[2] !== "";
   const scrollY = useScroll();
   const isScrolled = scrollY > 0;
   const [devideWidth, setDevideWidth] = useState<{
@@ -26,15 +32,15 @@ export default function FlexibleHeader() {
     <div
       className={cn(
         "flex w-full flex-col items-center border-b border-gray-200 transition-all duration-500 [background-image:var(--search-input_background)]",
-        isScrolled ? "h-24 justify-center" : "h-50  py-8  justify-between"
+        isScrolled || hasId ? "h-24 justify-center" : "h-50  py-8  justify-between"
       )}>
       {/* Nav */}
       <nav
         className={cn(
           "flex flex-row gap-8 px-8 transition-transform duration-500",
-          isScrolled ? "-translate-y-24 absolute" : "translate-y-0 relative"
+          isScrolled || hasId ? "-translate-y-24 absolute" : "translate-y-0 relative"
         )}>
-        {navLinks.map((link) => (
+        {navLinks.slice(0, 3).map((link) => (
           <div
             key={link.href}
             className={cn(
@@ -63,7 +69,7 @@ export default function FlexibleHeader() {
         className={
           cn(
             "w-full transition-all duration-500 flex justify-center items-center ",
-            isScrolled ? " py-6  max-w-[380]" : "scale-100 max-w-[850px]"
+            isScrolled || hasId ? " py-6  max-w-[380]" : "scale-100 max-w-[850px]"
           )
         } >
         <SearchBar onSearch={handleSearch} />

@@ -12,7 +12,11 @@ const searchMini = [
 export function SearchMinimal() {
   const pathName = usePathname();
 
-  const activeNav = navLinks.find((link) => link.href === pathName);
+  const activeNav = navLinks.find((link) => {
+    const hrefs = Array.isArray(link.href) ? link.href : [link.href];
+    return hrefs.some((h) => pathName === h || pathName.startsWith(h + "/"));
+  });
+
 
 
   return (
@@ -26,7 +30,7 @@ export function SearchMinimal() {
       </div>
 
       {activeNav && (
-        <div className="absolute top-0 right-o z-10 overflow-hidden h-full">
+        <div className="absolute top-0 left-0 z-10 overflow-hidden h-full">
           <video
             autoPlay
             muted

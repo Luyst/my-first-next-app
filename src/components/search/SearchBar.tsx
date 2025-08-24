@@ -4,6 +4,7 @@ import { useScroll } from "@/hooks/useScroll";
 import React, { useState } from "react";
 import SearchDefault from "./SearchDefault";
 import { SearchMinimal } from "./SearchMinimal";
+import { usePathname } from "next/navigation";
 
 interface SearchBarProps {
   onSearch: (params: {
@@ -14,11 +15,15 @@ interface SearchBarProps {
 }
 
 const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
+  const pathname = usePathname();
+  const parts = pathname.split("/"); // ["", "room", "listing_005"]
+
+  const hasId = parts.length > 2 && parts[2] !== "";
   const scrollY = useScroll();
   const isScrolled = scrollY > 0;
   return (
     <>
-      {isScrolled ? (<SearchMinimal />) : (<SearchDefault />)}
+      {isScrolled || hasId ? (<SearchMinimal />) : (<SearchDefault />)}
     </>
   );
 };

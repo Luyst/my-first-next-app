@@ -1,0 +1,1264 @@
+ {
+  "sections": [
+    {
+      "id": "hochiminh",
+      "title": "Popular homes in Ho Chi Minh",
+      "listings": [
+        {
+          "id": "hochiminh_room_001",
+          "title": "Modern Flat in Ho Chi Minh",
+          "type": "Apartment",
+          "city": "Ho Chi Minh",
+          "pricePerNight": 153,
+          "currency": "USD",
+          "rating": "4.27",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1437504524802187182/original/adc0a5cf-0571-4fdc-b4cb-b33a63e64276.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hochiminh_room_002",
+          "title": "Modern Condo in Ho Chi Minh",
+          "type": "Loft",
+          "city": "Ho Chi Minh",
+          "pricePerNight": 99,
+          "currency": "USD",
+          "rating": "4.81",
+          "images": [
+            "https://a0.muscache.com/im/pictures/d785e217-9339-4d02-9fb0-9c6fe102bb8d.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hochiminh_room_003",
+          "title": "Charming House in Ho Chi Minh",
+          "type": "Bungalow",
+          "city": "Ho Chi Minh",
+          "pricePerNight": 88,
+          "currency": "USD",
+          "rating": "4.35",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1414326477014483040/original/0099d0f2-d575-4998-a98e-d11bc47af3ea.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hochiminh_room_004",
+          "title": "Luxury Loft in Ho Chi Minh",
+          "type": "Bungalow",
+          "city": "Ho Chi Minh",
+          "pricePerNight": 75,
+          "currency": "USD",
+          "rating": "4.53",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-820674519056107556/original/5500478a-27fd-498c-85f8-5f6d8df368c9.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hochiminh_room_005",
+          "title": "Charming Studio in Ho Chi Minh",
+          "type": "Condo",
+          "city": "Ho Chi Minh",
+          "pricePerNight": 76,
+          "currency": "USD",
+          "rating": "4.37",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1396886973804448786/original/af4245e7-5bbf-4072-b067-e01ac6baf259.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hochiminh_room_006",
+          "title": "Charming Bungalow in Ho Chi Minh",
+          "type": "Villa",
+          "city": "Ho Chi Minh",
+          "pricePerNight": 97,
+          "currency": "USD",
+          "rating": "4.50",
+          "images": [
+            "https://a0.muscache.com/im/pictures/ee625cad-eb00-4272-8f77-d1b0f7aaf3fe.jpg?im_w=1200"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hochiminh_room_007",
+          "title": "Cozy Apartment in Ho Chi Minh",
+          "type": "Bungalow",
+          "city": "Ho Chi Minh",
+          "pricePerNight": 81,
+          "currency": "USD",
+          "rating": "4.75",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1414326477014483040/original/0099d0f2-d575-4998-a98e-d11bc47af3ea.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hochiminh_room_008",
+          "title": "Charming Apartment in Ho Chi Minh",
+          "type": "Loft",
+          "city": "Ho Chi Minh",
+          "pricePerNight": 102,
+          "currency": "USD",
+          "rating": "4.14",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1353659801042006667/original/a5c94d76-fdc5-4ad4-a845-ee768c4ccce8.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hanoi",
+      "title": "Available next month in Hanoi",
+      "listings": [
+        {
+          "id": "hanoi_room_001",
+          "title": "Cozy Studio in Ha Noi",
+          "type": "Apartment",
+          "city": "Ha Noi",
+          "pricePerNight": 84,
+          "currency": "USD",
+          "rating": "4.06",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMxMjEyMTYzMDQ2Mzc5NTA4Mg%3D%3D/original/b2918006-2864-4f79-8a95-f9729ab7c038.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hanoi_room_002",
+          "title": "Seaside Condo in Ha Noi",
+          "type": "Bungalow",
+          "city": "Ha Noi",
+          "pricePerNight": 68,
+          "currency": "USD",
+          "rating": "4.74",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1176111050980920305/original/c6de3670-ad6a-4ebe-81d5-3c0ee5fd156c.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hanoi_room_003",
+          "title": "Seaside Bungalow in Ha Noi",
+          "type": "Bungalow",
+          "city": "Ha Noi",
+          "pricePerNight": 148,
+          "currency": "USD",
+          "rating": "4.44",
+          "images": [
+            "https://a0.muscache.com/im/pictures/d7688852-ff1a-4d9a-a5af-3a896566da52.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hanoi_room_004",
+          "title": "Luxury Apartment in Ha Noi",
+          "type": "House",
+          "city": "Ha Noi",
+          "pricePerNight": 73,
+          "currency": "USD",
+          "rating": "4.67",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMxMjEyMTYzMDQ2Mzc5NTA4Mg%3D%3D/original/b2918006-2864-4f79-8a95-f9729ab7c038.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hanoi_room_005",
+          "title": "Modern Studio in Ha Noi",
+          "type": "House",
+          "city": "Ha Noi",
+          "pricePerNight": 143,
+          "currency": "USD",
+          "rating": "4.34",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1218723410519238125/original/71b9b3ca-c82d-49a4-b408-d8bd7a4d54c6.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hanoi_room_006",
+          "title": "Seaside Bungalow in Ha Noi",
+          "type": "House",
+          "city": "Ha Noi",
+          "pricePerNight": 177,
+          "currency": "USD",
+          "rating": "4.13",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1414326477014483040/original/0099d0f2-d575-4998-a98e-d11bc47af3ea.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hanoi_room_007",
+          "title": "Modern Bungalow in Ha Noi",
+          "type": "House",
+          "city": "Ha Noi",
+          "pricePerNight": 74,
+          "currency": "USD",
+          "rating": "4.38",
+          "images": [
+            "https://a0.muscache.com/im/pictures/ee625cad-eb00-4272-8f77-d1b0f7aaf3fe.jpg?im_w=1200"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hanoi_room_008",
+          "title": "Charming Loft in Ha Noi",
+          "type": "Loft",
+          "city": "Ha Noi",
+          "pricePerNight": 88,
+          "currency": "USD",
+          "rating": "4.99",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1437504524802187182/original/adc0a5cf-0571-4fdc-b4cb-b33a63e64276.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "danang",
+      "title": "Popular places to stay in Da Nang",
+      "listings": [
+        {
+          "id": "danang_room_001",
+          "title": "Luxury Flat in Da Nang",
+          "type": "Villa",
+          "city": "Da Nang",
+          "pricePerNight": 146,
+          "currency": "USD",
+          "rating": "4.92",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1399726006725237532/original/353598ac-2a79-468c-9dc7-d192152b7c8d.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "danang_room_002",
+          "title": "Cozy Apartment in Da Nang",
+          "type": "Studio",
+          "city": "Da Nang",
+          "pricePerNight": 169,
+          "currency": "USD",
+          "rating": "4.59",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-820674519056107556/original/5500478a-27fd-498c-85f8-5f6d8df368c9.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "danang_room_003",
+          "title": "Modern Apartment in Da Nang",
+          "type": "Bungalow",
+          "city": "Da Nang",
+          "pricePerNight": 168,
+          "currency": "USD",
+          "rating": "4.49",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1437504524802187182/original/adc0a5cf-0571-4fdc-b4cb-b33a63e64276.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "danang_room_004",
+          "title": "Charming House in Da Nang",
+          "type": "Studio",
+          "city": "Da Nang",
+          "pricePerNight": 165,
+          "currency": "USD",
+          "rating": "4.51",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA4MDA1OTA2NDkwMzU5MDQ1Mw%3D%3D/original/0270cd9b-d37d-4ddc-a203-c331d0e11b36.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "danang_room_005",
+          "title": "Cozy Bungalow in Da Nang",
+          "type": "House",
+          "city": "Da Nang",
+          "pricePerNight": 134,
+          "currency": "USD",
+          "rating": "4.49",
+          "images": [
+            "https://a0.muscache.com/im/pictures/d7688852-ff1a-4d9a-a5af-3a896566da52.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "danang_room_006",
+          "title": "Modern Studio in Da Nang",
+          "type": "House",
+          "city": "Da Nang",
+          "pricePerNight": 72,
+          "currency": "USD",
+          "rating": "4.99",
+          "images": [
+            "https://a0.muscache.com/im/pictures/6fe4762a-546f-4187-a6c1-040385961e2f.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "danang_room_007",
+          "title": "Charming Condo in Da Nang",
+          "type": "Loft",
+          "city": "Da Nang",
+          "pricePerNight": 78,
+          "currency": "USD",
+          "rating": "4.43",
+          "images": [
+            "https://a0.muscache.com/im/pictures/b81f0200-baae-41d3-bcf2-afe427097882.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "danang_room_008",
+          "title": "Luxury Bungalow in Da Nang",
+          "type": "Villa",
+          "city": "Da Nang",
+          "pricePerNight": 77,
+          "currency": "USD",
+          "rating": "4.45",
+          "images": [
+            "https://a0.muscache.com/im/pictures/d785e217-9339-4d02-9fb0-9c6fe102bb8d.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hoian",
+      "title": "Places to stay in Hoi An",
+      "listings": [
+        {
+          "id": "hoian_room_001",
+          "title": "Charming Studio in Hoi An",
+          "type": "Villa",
+          "city": "Hoi An",
+          "pricePerNight": 85,
+          "currency": "USD",
+          "rating": "4.28",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1396886973804448786/original/af4245e7-5bbf-4072-b067-e01ac6baf259.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hoian_room_002",
+          "title": "Seaside Apartment in Hoi An",
+          "type": "Studio",
+          "city": "Hoi An",
+          "pricePerNight": 74,
+          "currency": "USD",
+          "rating": "4.02",
+          "images": [
+            "https://a0.muscache.com/im/pictures/d785e217-9339-4d02-9fb0-9c6fe102bb8d.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hoian_room_003",
+          "title": "Charming Loft in Hoi An",
+          "type": "Flat",
+          "city": "Hoi An",
+          "pricePerNight": 59,
+          "currency": "USD",
+          "rating": "4.20",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMxMjEyMTYzMDQ2Mzc5NTA4Mg%3D%3D/original/b2918006-2864-4f79-8a95-f9729ab7c038.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hoian_room_004",
+          "title": "Luxury Villa in Hoi An",
+          "type": "House",
+          "city": "Hoi An",
+          "pricePerNight": 128,
+          "currency": "USD",
+          "rating": "4.48",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1218723410519238125/original/71b9b3ca-c82d-49a4-b408-d8bd7a4d54c6.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hoian_room_005",
+          "title": "Charming Loft in Hoi An",
+          "type": "Flat",
+          "city": "Hoi An",
+          "pricePerNight": 146,
+          "currency": "USD",
+          "rating": "4.57",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1218723410519238125/original/71b9b3ca-c82d-49a4-b408-d8bd7a4d54c6.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hoian_room_006",
+          "title": "Luxury Studio in Hoi An",
+          "type": "Villa",
+          "city": "Hoi An",
+          "pricePerNight": 177,
+          "currency": "USD",
+          "rating": "4.70",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1218723410519238125/original/71b9b3ca-c82d-49a4-b408-d8bd7a4d54c6.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hoian_room_007",
+          "title": "Modern Apartment in Hoi An",
+          "type": "Condo",
+          "city": "Hoi An",
+          "pricePerNight": 99,
+          "currency": "USD",
+          "rating": "4.53",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1437504524802187182/original/adc0a5cf-0571-4fdc-b4cb-b33a63e64276.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "hoian_room_008",
+          "title": "Cozy House in Hoi An",
+          "type": "Villa",
+          "city": "Hoi An",
+          "pricePerNight": 55,
+          "currency": "USD",
+          "rating": "4.22",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA4MDA1OTA2NDkwMzU5MDQ1Mw%3D%3D/original/0270cd9b-d37d-4ddc-a203-c331d0e11b36.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vungtau",
+      "title": "Check out homes in Vung Tau",
+      "listings": [
+        {
+          "id": "vungtau_room_001",
+          "title": "Modern House in Vung Tau",
+          "type": "House",
+          "city": "Vung Tau",
+          "pricePerNight": 164,
+          "currency": "USD",
+          "rating": "4.53",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1218723410519238125/original/71b9b3ca-c82d-49a4-b408-d8bd7a4d54c6.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "vungtau_room_002",
+          "title": "Luxury House in Vung Tau",
+          "type": "Flat",
+          "city": "Vung Tau",
+          "pricePerNight": 72,
+          "currency": "USD",
+          "rating": "4.73",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQwOTE5MjI1MzUzMDMyNDI4MQ==/original/71134118-5e52-4635-a321-bbaf66ab86ad.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "vungtau_room_003",
+          "title": "Luxury Condo in Vung Tau",
+          "type": "Studio",
+          "city": "Vung Tau",
+          "pricePerNight": 168,
+          "currency": "USD",
+          "rating": "4.75",
+          "images": [
+            "https://a0.muscache.com/im/pictures/6fe4762a-546f-4187-a6c1-040385961e2f.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "vungtau_room_004",
+          "title": "Seaside Flat in Vung Tau",
+          "type": "Loft",
+          "city": "Vung Tau",
+          "pricePerNight": 139,
+          "currency": "USD",
+          "rating": "4.01",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1396886973804448786/original/af4245e7-5bbf-4072-b067-e01ac6baf259.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "vungtau_room_005",
+          "title": "Seaside Condo in Vung Tau",
+          "type": "Villa",
+          "city": "Vung Tau",
+          "pricePerNight": 81,
+          "currency": "USD",
+          "rating": "4.68",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-579318425692732868/original/31c6fc98-7f55-472c-9eea-9159b2e44557.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "vungtau_room_006",
+          "title": "Cozy Bungalow in Vung Tau",
+          "type": "Condo",
+          "city": "Vung Tau",
+          "pricePerNight": 67,
+          "currency": "USD",
+          "rating": "4.24",
+          "images": [
+            "https://a0.muscache.com/im/pictures/6fe4762a-546f-4187-a6c1-040385961e2f.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "vungtau_room_007",
+          "title": "Modern Condo in Vung Tau",
+          "type": "House",
+          "city": "Vung Tau",
+          "pricePerNight": 173,
+          "currency": "USD",
+          "rating": "4.90",
+          "images": [
+            "https://a0.muscache.com/im/pictures/d785e217-9339-4d02-9fb0-9c6fe102bb8d.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "vungtau_room_008",
+          "title": "Seaside Studio in Vung Tau",
+          "type": "Villa",
+          "city": "Vung Tau",
+          "pricePerNight": 126,
+          "currency": "USD",
+          "rating": "4.36",
+          "images": [
+            "https://a0.muscache.com/im/pictures/b81f0200-baae-41d3-bcf2-afe427097882.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bangkok",
+      "title": "Top-rated homes in Bangkok",
+      "listings": [
+        {
+          "id": "bangkok_room_001",
+          "title": "Luxury Flat in Bangkok",
+          "type": "Flat",
+          "city": "Bangkok",
+          "pricePerNight": 109,
+          "currency": "USD",
+          "rating": "4.34",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQwOTE5MjI1MzUzMDMyNDI4MQ==/original/71134118-5e52-4635-a321-bbaf66ab86ad.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "bangkok_room_002",
+          "title": "Luxury Villa in Bangkok",
+          "type": "Bungalow",
+          "city": "Bangkok",
+          "pricePerNight": 159,
+          "currency": "USD",
+          "rating": "4.61",
+          "images": [
+            "https://a0.muscache.com/im/pictures/d7688852-ff1a-4d9a-a5af-3a896566da52.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "bangkok_room_003",
+          "title": "Charming Studio in Bangkok",
+          "type": "Condo",
+          "city": "Bangkok",
+          "pricePerNight": 179,
+          "currency": "USD",
+          "rating": "4.82",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1218723410519238125/original/71b9b3ca-c82d-49a4-b408-d8bd7a4d54c6.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "bangkok_room_004",
+          "title": "Luxury Villa in Bangkok",
+          "type": "Apartment",
+          "city": "Bangkok",
+          "pricePerNight": 135,
+          "currency": "USD",
+          "rating": "4.43",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1414326477014483040/original/0099d0f2-d575-4998-a98e-d11bc47af3ea.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "bangkok_room_005",
+          "title": "Modern House in Bangkok",
+          "type": "Condo",
+          "city": "Bangkok",
+          "pricePerNight": 111,
+          "currency": "USD",
+          "rating": "4.22",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1396886973804448786/original/af4245e7-5bbf-4072-b067-e01ac6baf259.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "bangkok_room_006",
+          "title": "Cozy Loft in Bangkok",
+          "type": "Studio",
+          "city": "Bangkok",
+          "pricePerNight": 127,
+          "currency": "USD",
+          "rating": "4.15",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1176111050980920305/original/c6de3670-ad6a-4ebe-81d5-3c0ee5fd156c.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "bangkok_room_007",
+          "title": "Charming Apartment in Bangkok",
+          "type": "Studio",
+          "city": "Bangkok",
+          "pricePerNight": 134,
+          "currency": "USD",
+          "rating": "4.45",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQwOTE5MjI1MzUzMDMyNDI4MQ==/original/71134118-5e52-4635-a321-bbaf66ab86ad.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "bangkok_room_008",
+          "title": "Cozy Villa in Bangkok",
+          "type": "Condo",
+          "city": "Bangkok",
+          "pricePerNight": 84,
+          "currency": "USD",
+          "rating": "4.87",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMxMjEyMTYzMDQ2Mzc5NTA4Mg%3D%3D/original/b2918006-2864-4f79-8a95-f9729ab7c038.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seoul",
+      "title": "Homes around Seoul",
+      "listings": [
+        {
+          "id": "seoul_room_001",
+          "title": "Modern Bungalow in Seoul",
+          "type": "House",
+          "city": "Seoul",
+          "pricePerNight": 96,
+          "currency": "USD",
+          "rating": "4.36",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1399726006725237532/original/353598ac-2a79-468c-9dc7-d192152b7c8d.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "seoul_room_002",
+          "title": "Cozy House in Seoul",
+          "type": "Villa",
+          "city": "Seoul",
+          "pricePerNight": 124,
+          "currency": "USD",
+          "rating": "4.67",
+          "images": [
+            "https://a0.muscache.com/im/pictures/6fe4762a-546f-4187-a6c1-040385961e2f.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "seoul_room_003",
+          "title": "Cozy House in Seoul",
+          "type": "Villa",
+          "city": "Seoul",
+          "pricePerNight": 156,
+          "currency": "USD",
+          "rating": "4.68",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-820674519056107556/original/5500478a-27fd-498c-85f8-5f6d8df368c9.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "seoul_room_004",
+          "title": "Seaside Bungalow in Seoul",
+          "type": "Loft",
+          "city": "Seoul",
+          "pricePerNight": 148,
+          "currency": "USD",
+          "rating": "4.30",
+          "images": [
+            "https://a0.muscache.com/im/pictures/ee625cad-eb00-4272-8f77-d1b0f7aaf3fe.jpg?im_w=1200"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "seoul_room_005",
+          "title": "Charming Loft in Seoul",
+          "type": "Loft",
+          "city": "Seoul",
+          "pricePerNight": 129,
+          "currency": "USD",
+          "rating": "4.04",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1399726006725237532/original/353598ac-2a79-468c-9dc7-d192152b7c8d.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "seoul_room_006",
+          "title": "Cozy Loft in Seoul",
+          "type": "House",
+          "city": "Seoul",
+          "pricePerNight": 65,
+          "currency": "USD",
+          "rating": "4.32",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1218723410519238125/original/71b9b3ca-c82d-49a4-b408-d8bd7a4d54c6.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "seoul_room_007",
+          "title": "Modern Bungalow in Seoul",
+          "type": "Flat",
+          "city": "Seoul",
+          "pricePerNight": 116,
+          "currency": "USD",
+          "rating": "4.68",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1414326477014483040/original/0099d0f2-d575-4998-a98e-d11bc47af3ea.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "seoul_room_008",
+          "title": "Charming House in Seoul",
+          "type": "Condo",
+          "city": "Seoul",
+          "pricePerNight": 62,
+          "currency": "USD",
+          "rating": "4.49",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA4MDA1OTA2NDkwMzU5MDQ1Mw%3D%3D/original/0270cd9b-d37d-4ddc-a203-c331d0e11b36.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "halong",
+      "title": "Stays in Ha Long Bay",
+      "listings": [
+        {
+          "id": "halong_room_001",
+          "title": "Luxury Apartment in Ha Long",
+          "type": "Condo",
+          "city": "Ha Long",
+          "pricePerNight": 156,
+          "currency": "USD",
+          "rating": "4.30",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1176111050980920305/original/c6de3670-ad6a-4ebe-81d5-3c0ee5fd156c.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "halong_room_002",
+          "title": "Charming Villa in Ha Long",
+          "type": "Studio",
+          "city": "Ha Long",
+          "pricePerNight": 178,
+          "currency": "USD",
+          "rating": "4.05",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMxMjEyMTYzMDQ2Mzc5NTA4Mg%3D%3D/original/b2918006-2864-4f79-8a95-f9729ab7c038.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "halong_room_003",
+          "title": "Modern Loft in Ha Long",
+          "type": "House",
+          "city": "Ha Long",
+          "pricePerNight": 172,
+          "currency": "USD",
+          "rating": "4.88",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1396886973804448786/original/af4245e7-5bbf-4072-b067-e01ac6baf259.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "halong_room_004",
+          "title": "Cozy Studio in Ha Long",
+          "type": "Flat",
+          "city": "Ha Long",
+          "pricePerNight": 154,
+          "currency": "USD",
+          "rating": "4.97",
+          "images": [
+            "https://a0.muscache.com/im/pictures/d7688852-ff1a-4d9a-a5af-3a896566da52.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "halong_room_005",
+          "title": "Charming Apartment in Ha Long",
+          "type": "Studio",
+          "city": "Ha Long",
+          "pricePerNight": 62,
+          "currency": "USD",
+          "rating": "4.64",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-579318425692732868/original/31c6fc98-7f55-472c-9eea-9159b2e44557.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "halong_room_006",
+          "title": "Cozy Bungalow in Ha Long",
+          "type": "Condo",
+          "city": "Ha Long",
+          "pricePerNight": 170,
+          "currency": "USD",
+          "rating": "4.18",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-579318425692732868/original/31c6fc98-7f55-472c-9eea-9159b2e44557.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "halong_room_007",
+          "title": "Seaside Apartment in Ha Long",
+          "type": "Apartment",
+          "city": "Ha Long",
+          "pricePerNight": 139,
+          "currency": "USD",
+          "rating": "4.27",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1414326477014483040/original/0099d0f2-d575-4998-a98e-d11bc47af3ea.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "halong_room_008",
+          "title": "Charming Studio in Ha Long",
+          "type": "Flat",
+          "city": "Ha Long",
+          "pricePerNight": 64,
+          "currency": "USD",
+          "rating": "4.69",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-579318425692732868/original/31c6fc98-7f55-472c-9eea-9159b2e44557.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phuquoc",
+      "title": "Homes in Phu Quoc Island",
+      "listings": [
+        {
+          "id": "phuquoc_room_001",
+          "title": "Luxury Condo in Phu Quoc",
+          "type": "Flat",
+          "city": "Phu Quoc",
+          "pricePerNight": 74,
+          "currency": "USD",
+          "rating": "4.92",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMxMjEyMTYzMDQ2Mzc5NTA4Mg%3D%3D/original/b2918006-2864-4f79-8a95-f9729ab7c038.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "phuquoc_room_002",
+          "title": "Cozy Studio in Phu Quoc",
+          "type": "House",
+          "city": "Phu Quoc",
+          "pricePerNight": 42,
+          "currency": "USD",
+          "rating": "4.94",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1176111050980920305/original/c6de3670-ad6a-4ebe-81d5-3c0ee5fd156c.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "phuquoc_room_003",
+          "title": "Charming House in Phu Quoc",
+          "type": "Condo",
+          "city": "Phu Quoc",
+          "pricePerNight": 139,
+          "currency": "USD",
+          "rating": "4.35",
+          "images": [
+            "https://a0.muscache.com/im/pictures/d7688852-ff1a-4d9a-a5af-3a896566da52.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "phuquoc_room_004",
+          "title": "Modern Apartment in Phu Quoc",
+          "type": "Bungalow",
+          "city": "Phu Quoc",
+          "pricePerNight": 171,
+          "currency": "USD",
+          "rating": "4.23",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA4MDA1OTA2NDkwMzU5MDQ1Mw%3D%3D/original/0270cd9b-d37d-4ddc-a203-c331d0e11b36.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "phuquoc_room_005",
+          "title": "Modern Flat in Phu Quoc",
+          "type": "Condo",
+          "city": "Phu Quoc",
+          "pricePerNight": 180,
+          "currency": "USD",
+          "rating": "4.17",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA4MDA1OTA2NDkwMzU5MDQ1Mw%3D%3D/original/0270cd9b-d37d-4ddc-a203-c331d0e11b36.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "phuquoc_room_006",
+          "title": "Luxury House in Phu Quoc",
+          "type": "Apartment",
+          "city": "Phu Quoc",
+          "pricePerNight": 185,
+          "currency": "USD",
+          "rating": "4.90",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1414326477014483040/original/0099d0f2-d575-4998-a98e-d11bc47af3ea.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "phuquoc_room_007",
+          "title": "Cozy Bungalow in Phu Quoc",
+          "type": "House",
+          "city": "Phu Quoc",
+          "pricePerNight": 110,
+          "currency": "USD",
+          "rating": "4.47",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMxMjEyMTYzMDQ2Mzc5NTA4Mg%3D%3D/original/b2918006-2864-4f79-8a95-f9729ab7c038.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "phuquoc_room_008",
+          "title": "Charming Loft in Phu Quoc",
+          "type": "Bungalow",
+          "city": "Phu Quoc",
+          "pricePerNight": 160,
+          "currency": "USD",
+          "rating": "4.55",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1176111050980920305/original/c6de3670-ad6a-4ebe-81d5-3c0ee5fd156c.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "singapore",
+      "title": "Stays in Singapore",
+      "listings": [
+        {
+          "id": "singapore_room_001",
+          "title": "Luxury House in Singapore",
+          "type": "Condo",
+          "city": "Singapore",
+          "pricePerNight": 70,
+          "currency": "USD",
+          "rating": "4.34",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMxMjEyMTYzMDQ2Mzc5NTA4Mg%3D%3D/original/b2918006-2864-4f79-8a95-f9729ab7c038.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "singapore_room_002",
+          "title": "Cozy House in Singapore",
+          "type": "Villa",
+          "city": "Singapore",
+          "pricePerNight": 154,
+          "currency": "USD",
+          "rating": "4.58",
+          "images": [
+            "https://a0.muscache.com/im/pictures/b81f0200-baae-41d3-bcf2-afe427097882.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "singapore_room_003",
+          "title": "Cozy Villa in Singapore",
+          "type": "Villa",
+          "city": "Singapore",
+          "pricePerNight": 120,
+          "currency": "USD",
+          "rating": "4.73",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-1396886973804448786/original/af4245e7-5bbf-4072-b067-e01ac6baf259.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "singapore_room_004",
+          "title": "Charming House in Singapore",
+          "type": "Apartment",
+          "city": "Singapore",
+          "pricePerNight": 121,
+          "currency": "USD",
+          "rating": "4.10",
+          "images": [
+            "https://a0.muscache.com/im/pictures/d785e217-9339-4d02-9fb0-9c6fe102bb8d.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "singapore_room_005",
+          "title": "Charming Villa in Singapore",
+          "type": "Bungalow",
+          "city": "Singapore",
+          "pricePerNight": 58,
+          "currency": "USD",
+          "rating": "4.52",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-1176111050980920305/original/c6de3670-ad6a-4ebe-81d5-3c0ee5fd156c.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "singapore_room_006",
+          "title": "Luxury House in Singapore",
+          "type": "Apartment",
+          "city": "Singapore",
+          "pricePerNight": 123,
+          "currency": "USD",
+          "rating": "4.91",
+          "images": [
+            "https://a0.muscache.com/im/pictures/miso/Hosting-820674519056107556/original/5500478a-27fd-498c-85f8-5f6d8df368c9.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "singapore_room_007",
+          "title": "Seaside Flat in Singapore",
+          "type": "Flat",
+          "city": "Singapore",
+          "pricePerNight": 186,
+          "currency": "USD",
+          "rating": "4.80",
+          "images": [
+            "https://a0.muscache.com/im/pictures/d785e217-9339-4d02-9fb0-9c6fe102bb8d.jpg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        },
+        {
+          "id": "singapore_room_008",
+          "title": "Modern Loft in Singapore",
+          "type": "Flat",
+          "city": "Singapore",
+          "pricePerNight": 112,
+          "currency": "USD",
+          "rating": "4.55",
+          "images": [
+            "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA4MDA1OTA2NDkwMzU5MDQ1Mw%3D%3D/original/0270cd9b-d37d-4ddc-a203-c331d0e11b36.jpeg?im_w=480"
+          ],
+          "tags": [
+            "Guest Favourite"
+          ]
+        }
+      ]
+    }
+  ]
+}

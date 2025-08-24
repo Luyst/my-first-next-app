@@ -23,4 +23,12 @@ export const navLinks = [
         videoSrcWebm:
             "https://a0.muscache.com/videos/search-bar-icons/webm/consierge-twirl.webm",
     },
+    {
+        href: "/room",
+        label: "Room details",
+        videoSrcMov:
+            "https://a0.muscache.com/videos/search-bar-icons/hevc/house-twirl-selected.mov",
+        videoSrcWebm:
+            "https://a0.muscache.com/videos/search-bar-icons/webm/house-twirl-selected.webm",
+    },
 ];
