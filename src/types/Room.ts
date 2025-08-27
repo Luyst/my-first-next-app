@@ -1,4 +1,4 @@
-export interface Listing {
+export interface ListingType {
     id: string;
     title: string;
     type: string;
@@ -10,8 +10,8 @@ export interface Listing {
     tags: string[];
 }
 
-export interface Section {
+export interface SectionType {
     id: string;
     title: string;
-    listings: Listing[];
+    listings: ListingType[];
 }

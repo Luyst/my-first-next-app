@@ -5,6 +5,7 @@ import "./globals.css";
 import Header from "@/components/layouts/header/Header";
 import { cn } from "@/lib/utils";
 import ReactQueryProvider from "./providers";
+import Footer from "@/components/layouts/Footer";
 
 // Tạo instance cho font
 const roboto = Roboto({
@@ -38,6 +39,7 @@ export default function RootLayout({
                 <ReactQueryProvider>
                     <Header />
                     <div className={cn("main-layout px-12 overflow-x-hidden")}>{children}</div>
+                    <Footer />
                 </ReactQueryProvider>
             </body>
         </html>

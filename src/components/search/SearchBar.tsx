@@ -22,9 +22,9 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
   const scrollY = useScroll();
   const isScrolled = scrollY > 0;
   return (
-    <>
+    <div >
       {isScrolled || hasId ? (<SearchMinimal />) : (<SearchDefault />)}
-    </>
+    </div>
   );
 };
 
