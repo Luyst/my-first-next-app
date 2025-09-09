@@ -20,8 +20,8 @@ export function SearchMinimal() {
 
 
   return (
-    <section className="relative w-full  search-wrap rounded-full transition-all duration-300 shadow hover:shadow-lg ">
-      <div className="flex flex-row gap-4 py-3 divide-search-input divide-x-2 px-12 items-center  relative z-10 bg-white rounded-full">
+    <div className=" ">
+      <div className="flex flex-row gap-4 py-3 divide-search-input divide-x-2 px-12 items-center  relative z-10 rounded-full">
 
         {searchMini.map((input) => (
           <div className="pr-3 font-medium  cursor-pointer" key={input.title}> {input.title}</div>
@@ -51,6 +51,6 @@ export function SearchMinimal() {
     ">
         <FaSearch className="shrink-0 z-10 text-xs" />
       </Button>
-    </section>
+    </div>
   );
 }

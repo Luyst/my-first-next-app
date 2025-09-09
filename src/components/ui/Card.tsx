@@ -32,12 +32,12 @@ export function Card({ listing }: CardProps) {
                     <div className="self-start grid row-span-1 grid-flow-col col-span-3 gap-2">
                         {listing.tags.length > 0 && (
                             <>
-                                <span className="favorite flex items-center text-start justify-center p-1.5 text-xs rounded-full font-medium bg-white/80 shadow-md">
+                                <span className="favorite flex items-center text-start justify-center p-1 text-xs rounded-full font-medium bg-white/80 shadow-md">
                                     Guest favourite
                                 </span>
-                                <span className="relative flex items-center justify-center hover:scale-110 transition-transform"> {/* viền */}
+                                <span className="relative flex items-center justify-center hover:scale-125 transition-transform">
                                     <FaRegHeart className="absolute text-xl text-white" />
-                                    <FaHeart className="text-xl text-black/60" />
+                                    <FaHeart className="text-xl text-gray-500/60" />
                                 </span>
                             </>
                         )}

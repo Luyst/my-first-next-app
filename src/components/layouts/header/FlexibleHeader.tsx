@@ -44,7 +44,7 @@ export default function FlexibleHeader() {
           <div
             key={link.href}
             className={cn(
-              "relative transition-colors duration-300",
+              "relative transition-colors duration-500",
               isActive(link.href)
                 ? "text-link-active"
                 : "text-gray-500 hover:text-gray-700"
@@ -69,7 +69,7 @@ export default function FlexibleHeader() {
         className={
           cn(
             "w-full transition-all duration-500 flex justify-center items-center ",
-            isScrolled || hasId ? " py-6  max-w-[380]" : "scale-100 max-w-[850px]"
+            isScrolled || hasId ? " py-6  w-[380px]" : " w-[850px]"
           )
         } >
         <SearchBar onSearch={handleSearch} />

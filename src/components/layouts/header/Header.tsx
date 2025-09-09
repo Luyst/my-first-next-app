@@ -16,7 +16,7 @@ export default function Header() {
             <div className="z-10">
                 <RightHeader />
             </div>
-            <div className="absolute  overflow-hidden block w-full top-0 left-0">
+            <div className="absolute  block w-full top-0 left-0">
                 <FlexibleHeader />
             </div>
         </header>
