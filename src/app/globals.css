@@ -88,7 +88,7 @@
 }
 
 .scroller-service{
-    display: grid;
+  display: grid;
   grid-auto-flow: column;
   gap: var(--contentscroller_gap);
 
@@ -107,6 +107,7 @@
 .scroller > * {
   scroll-snap-align: start;
 }
+
 
 
 @layer base {
@@ -137,3 +138,4 @@
 .date-drop::-webkit-scrollbar-thumb:hover {
   background-color: rgba(0, 0, 0, 0.6);
 }
+

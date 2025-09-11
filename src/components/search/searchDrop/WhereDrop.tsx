@@ -2,6 +2,8 @@ import Tag from "@/components/ui/Tag";
 import { FiNavigation } from "react-icons/fi";
 import { FaBuilding, FaLandmark } from "react-icons/fa";
 import { MdLocationCity } from "react-icons/md";
+import { useDispatch } from "react-redux";
+import { setWhere } from "@/redux/searchSlice";
 
 const destinations = [
     {
@@ -91,6 +93,7 @@ const destinations = [
 ];
 
 export default function WhereDrop() {
+    const dispatch = useDispatch();
     return (
         <div className="date-drop size-full flex flex-col  bg-white py-8 px-2 rounded-4xl shadow-xl   overflow-y-auto">
             <div className="px-6 mb-1 text-xs font-medium">
@@ -103,6 +106,9 @@ export default function WhereDrop() {
                     title={item.title}
                     subtitle={item.subtitle}
                     color={item.color}
+                    onclick={() => {
+                        dispatch(setWhere({ name: item.title }));
+                    }}
 
                 />
             ))}

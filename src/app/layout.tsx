@@ -1,11 +1,13 @@
+
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 
 import Header from "@/components/layouts/header/Header";
 import { cn } from "@/lib/utils";
-import ReactQueryProvider from "./providers";
+import AllProvider from "./providers";
 import Footer from "@/components/layouts/Footer";
+
 
 // Tạo instance cho font
 const roboto = Roboto({
@@ -36,11 +38,14 @@ export default function RootLayout({
             <body
                 className={`${roboto.className} antialiased`}  // áp dụng font Roboto
             >
-                <ReactQueryProvider>
+
+
+                <AllProvider>
                     <Header />
                     <div className={cn("main-layout px-12 overflow-x-hidden")}>{children}</div>
                     <Footer />
-                </ReactQueryProvider>
+                </AllProvider>
+
             </body>
         </html>
     );

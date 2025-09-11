@@ -7,6 +7,7 @@ interface TagProps {
     title: string;
     subtitle: string;
     color?: string;
+    onclick?: () => void;
     className?: string;
 
 }
@@ -17,7 +18,7 @@ const colors: Record<string, { text: string; bg: string }> = {
     yellow: { text: "text-yellow-500", bg: "bg-yellow-50" },
 };
 
-export default function Tag({ icon, title, subtitle, color, className }: TagProps) {
+export default function Tag({ icon, title, subtitle, color, onclick, className }: TagProps) {
     const { text, bg } = colors[color as keyof typeof colors] || colors.blue;
     return (
         <div
@@ -25,6 +26,7 @@ export default function Tag({ icon, title, subtitle, color, className }: TagProp
                 "flex items-center gap-3 mx-4 p-2 hover:bg-gray-100 cursor-pointer rounded-xl transition-colors",
                 className
             )}
+            onClick={onclick}
         >
             <div className={cn("text-2xl size-14 aspect-square flex items-center justify-center bg-green-200 rounded-xl", text, bg)}>{icon}</div>
             <div className="flex flex-col text-sm">

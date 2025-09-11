@@ -68,7 +68,7 @@ export default function FlexibleHeader() {
       < div
         className={
           cn(
-            "w-full transition-all duration-500 flex justify-center items-center ",
+            "transition-all duration-500 flex justify-center items-center ",
             isScrolled || hasId ? " py-6  w-[380px]" : " w-[850px]"
           )
         } >

@@ -5,15 +5,25 @@ import { Button } from "../ui/Button";
 import { FaSearch } from "react-icons/fa";
 import { useState, useRef, useEffect } from "react";
 import WhereDrop from "./searchDrop/WhereDrop";
-import WhoDrop from "./searchDrop/WhoDrop";
-
+import WhoDrop from "./searchDrop/Who/WhoDrop";
+import { useDispatch, useSelector } from "react-redux";
+import { RootState } from "@/redux/store";
+import { formatGuests } from "@/lib/utils";
+import { setWhere } from "@/redux/searchSlice";
 export default function SearchDefault() {
   const [highlight, setHighlight] = useState({ left: 0, width: 0 });
   const [activeDrop, setActiveDrop] = useState<"where" | "date" | "who" | null>(null);
 
+  const dispatch = useDispatch();
+  const value = useSelector((state: RootState) => state.search);
+
+
+
+
+
   const wrapperRef = useRef<HTMLDivElement>(null);
 
-  // Close dropdown when clicking outside
+
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (wrapperRef.current && !wrapperRef.current.contains(event.target as Node)) {
@@ -41,20 +51,26 @@ export default function SearchDefault() {
         <div className="grid grid-cols-6 relative z-10 ">
           <Input
             title="Where"
-            type="text"
             placeholder="Search destinations"
             className="col-span-2"
+            value={value.where.name || ""}
+            onChange={(e) => {
+              dispatch(setWhere({ name: e.target.value }));
+            }}
             onFocus={(e) => {
               updateHighlightPosition(32, e, setHighlight);
               setActiveDrop("where");
             }}
           />
 
+
           <Input
             title="Check in"
-            type="text"
+
             placeholder="Add dates"
             className="col-span-1"
+            readOnlyMode
+            value={value.where.name ? "" : ""}
             onFocus={(e) => {
               updateHighlightPosition(32, e, setHighlight);
               setActiveDrop("date");
@@ -62,20 +78,24 @@ export default function SearchDefault() {
           />
           <Input
             title="Check out"
-            type="text"
+
             placeholder="Add dates"
             className="col-span-1"
+            readOnlyMode
             onFocus={(e) => {
               updateHighlightPosition(32, e, setHighlight);
               setActiveDrop("date");
             }}
+            value={""}
           />
 
           <Input
             title="Who"
-            type="text"
+
             placeholder="Add guests"
             className="col-span-2"
+            readOnlyMode
+            value={formatGuests(value.who)}
             onFocus={(e) => {
               updateHighlightPosition(32, e, setHighlight);
               setActiveDrop("who");
@@ -97,10 +117,11 @@ export default function SearchDefault() {
 
       <div
         className={cn(
-          "absolute transition-all duration-300 mt-3  z-50",
+          "absolute transition-all duration-500 mt-3  z-50  shadow-xl",
+          !activeDrop && "h-0",
           activeDrop === "where" && "left-0  h-[calc(100vh-200px)] w-[425px]",
-          activeDrop === "date" && " left-0 h-[calc(100vh-190px)] w-[850px]",
-          activeDrop === "who" && "left-1/2 h-80  w-[425px] "
+          activeDrop === "date" && " left-0 max-h-[calc(100vh-190px)] w-[850px]",
+          activeDrop === "who" && "left-1/2 w-[425px] h-[400px]"
         )}
       >
         {activeDrop === "where" && <WhereDrop />}
