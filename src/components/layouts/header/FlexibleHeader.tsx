@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useActive } from "@/hooks/useActive";
 
 import { handleSearch } from "@/lib/search";
-import { cn, updateHighlightPosition } from "@/lib/utils";
+import { cn, updateHighlightPosition } from "@/lib/utils/utils";
 import { useScroll } from "@/hooks/useScroll";
 import { usePathname } from "next/navigation";
 

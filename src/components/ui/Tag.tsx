@@ -1,5 +1,5 @@
 // Tag.tsx
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils/utils";
 import { ReactNode } from "react";
 
 interface TagProps {

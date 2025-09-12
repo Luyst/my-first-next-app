@@ -4,7 +4,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 
 import Header from "@/components/layouts/header/Header";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils/utils";
 import AllProvider from "./providers";
 import Footer from "@/components/layouts/Footer";
 

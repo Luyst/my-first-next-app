@@ -1,5 +1,5 @@
 // ui/Badge.tsx
-import { cn } from "@/lib/utils"; // if you use shadcn style utils (optional)
+import { cn } from "@/lib/utils/utils"; // if you use shadcn style utils (optional)
 
 interface BadgeProps {
     children: React.ReactNode;

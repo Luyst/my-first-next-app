@@ -6,8 +6,8 @@ type WhereState = {
     name?: string;
 }
 type WhenState = {
-    checkIn?: Date | null;
-    checkOut?: Date | null;
+    checkIn?: string;
+    checkOut?: string;
 }
 
 type WhoState = {

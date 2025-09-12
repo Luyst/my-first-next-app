@@ -1,6 +1,6 @@
-import { cn, updateHighlightPosition } from "@/lib/utils";
+import { cn, updateHighlightPosition } from "@/lib/utils/utils";
 import Input from "@/components/search/Input";
-import DateDrop from "./searchDrop/DateDrop";
+import DateDrop from "./searchDrop/Date/DateDrop";
 import { Button } from "../ui/Button";
 import { FaSearch } from "react-icons/fa";
 import { useState, useRef, useEffect } from "react";
@@ -8,7 +8,7 @@ import WhereDrop from "./searchDrop/WhereDrop";
 import WhoDrop from "./searchDrop/Who/WhoDrop";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "@/redux/store";
-import { formatGuests } from "@/lib/utils";
+import { formatGuests } from "@/lib/utils/utils";
 import { setWhere } from "@/redux/searchSlice";
 export default function SearchDefault() {
   const [highlight, setHighlight] = useState({ left: 0, width: 0 });
@@ -70,7 +70,7 @@ export default function SearchDefault() {
             placeholder="Add dates"
             className="col-span-1"
             readOnlyMode
-            value={value.where.name ? "" : ""}
+            value={value.when.checkIn ? value.when.checkIn : ""}
             onFocus={(e) => {
               updateHighlightPosition(32, e, setHighlight);
               setActiveDrop("date");
@@ -86,7 +86,7 @@ export default function SearchDefault() {
               updateHighlightPosition(32, e, setHighlight);
               setActiveDrop("date");
             }}
-            value={""}
+            value={value.when.checkOut ? value.when.checkOut : ""}
           />
 
           <Input
